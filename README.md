@@ -1,36 +1,86 @@
+# 🛍️ Clothing eCommerce Web Application
 
+A modern eCommerce web application for clothing built using **Angular** and **Node.js**. It provides a smooth and responsive shopping experience, including browsing products, authentication, and cart management.
 
-- install all dependancies
+---
+
+## 🚀 Features
+
+* 👕 Browse clothing products
+* 🔐 User registration & login
+* 🛒 Add to cart functionality
+* 📦 Basic order handling
+* 🎨 Responsive UI with Angular Material & MDB
+* 🔔 Alerts and notifications using SweetAlert2
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Angular 17, Angular Material, MDB UI Kit
+* **Backend:** Node.js, Express
+* **Database:** MySQL (with Sequelize)
+* **Authentication:** JWT, bcrypt
+* **Other Libraries:** Axios, SweetAlert2, jQuery
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the repository
 
 ```bash
-       "@angular/animations": "^17.1.0",
-    "@angular/cdk": "^17.3.5",
-    "@angular/common": "^17.1.0",
-    "@angular/compiler": "^17.1.0",
-    "@angular/core": "^17.1.0",
-    "@angular/forms": "^17.1.0",
-    "@angular/material": "^17.3.5",
-    "@angular/platform-browser": "^17.1.0",
-    "@angular/platform-browser-dynamic": "^17.1.0",
-    "@angular/router": "^17.1.0",
-    "axios": "^1.7.2",
-    "bcrypt": "^5.1.1",
-    "bcryptjs": "^2.4.3",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "jquery": "^3.7.1",
-    "jsonwebtoken": "^9.0.2",
-    "mdb-ui-kit": "^7.2.0",
-    "mysql2": "^3.10.1",
-    "rxjs": "~7.8.0",
-    "sequelize": "^6.37.3",
-    "sweetalert2": "^11.10.8",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.14.3"
+git clone <your-repo-url>
+cd <your-project-folder>
 ```
+
+---
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 3. Run the application
+
+Start the Angular frontend:
+
 ```bash
 ng serve
 ```
 
+Then open your browser at:
 
+```
+http://localhost:4200
+```
+
+> ⚠️ Make sure your backend server is running if your project depends on it.
+
+---
+
+## 📚 Dependencies
+
+Main packages used in this project:
+
+* @angular/core, @angular/router, @angular/material
+* express, cors, cookie-parser
+* mysql2, sequelize
+* jsonwebtoken, bcrypt
+* axios, sweetalert2
+
+---
+
+## ✨ Notes
+
+* Built for learning and demonstration purposes
+* Easy to extend with features like payments or admin dashboards
+
+---
+
+## 👨‍💻 Author
+
+Mohammad Alnajjar
